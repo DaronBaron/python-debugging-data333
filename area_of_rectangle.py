@@ -31,8 +31,7 @@ def area_of_rectangle(height, width = None):
     """
     if width is None:
         width = height
-    area = height * width
-    return area
+    return height * width
 
 if __name__ == '__main__':
     if (len(sys.argv) < 2) or (len(sys.argv) > 3):
