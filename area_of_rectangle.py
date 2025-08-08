@@ -43,8 +43,8 @@ if __name__ == '__main__':
         
     height = float(sys.argv[1])
     width = None
-    if len(sys.argv) > 3:
-        width = float(sys.argv[1])
+    if len(sys.argv) == 3:
+        width = float(sys.argv[2])
 
     area = area_of_rectangle(height, width)
 
